@@ -102,6 +102,6 @@ class PlanManager(context: Context) {
         private const val PREFS = "plan_prefs"
         private const val KEY_CUSTOM_JSON = "custom_plan_json"
         private const val KEY_PLAN_NAME = "plan_name"
-        private const val DEFAULT_NAME = "Josh's Workout"
+        private const val DEFAULT_NAME = "My Workout"
     }
 }

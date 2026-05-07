@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Dark charcoal background matching the app's dark theme -->
+<!-- Burnt orange background -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Base fill -->
+    <!-- Base fill: burnt orange -->
     <path
-        android:fillColor="#121212"
+        android:fillColor="#CC5500"
         android:pathData="M0,0 H108 V108 H0 Z"/>
 
-    <!-- Subtle radial glow behind the dumbbell (dark green center) -->
+    <!-- Subtle radial glow (darker burnt-orange ring for depth) -->
     <path
-        android:fillColor="#0D1B5E20"
+        android:fillColor="#1A000000"
         android:pathData="M54,54 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0"/>
 
 </vector>

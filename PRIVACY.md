@@ -22,7 +22,7 @@ This data never leaves your device. It is not synced to a cloud, sent to any ser
 ## Permissions the app requests
 
 - **Notifications (`POST_NOTIFICATIONS`)** — used only to deliver workout reminders you have configured locally. No push notifications come from any server.
-- **Exact alarms / boot completion** — used to schedule local workout reminders and re-register them after device reboot.
+- **Run on boot (`RECEIVE_BOOT_COMPLETED`)** — used to re-register your local workout reminders after the device restarts. Nothing is sent off-device.
 
 ## Third-party services
 
