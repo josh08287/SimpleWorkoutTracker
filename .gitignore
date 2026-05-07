@@ -1,0 +1,32 @@
+# Signing — never commit
+keystore.properties
+*.keystore
+*.jks
+
+# Local config
+local.properties
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+out/
+captures/
+
+# Kotlin
+.kotlin/
+
+# Heap dumps
+*.hprof
+
+# Stack dumps
+*.stackdump
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
